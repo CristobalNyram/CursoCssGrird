@@ -1,0 +1,28 @@
+.contenedor{
+    width: 200px;
+    height: 200px;
+
+    background: blanchedalmond;
+    line-height: 180px;/*aqui agregamos la linea imaginaria */
+}
+
+.elemento_uno
+{
+display: inline-block;
+    
+width: 50PX;
+height: 50px;
+background-color: red;
+line-height: 50px;
+vertical-align: bottom;/* con esto podemos aliniar con facilidad pero necesitamos el line-height*/
+
+}
+.elemento_dos
+{
+    width: 50PX;
+    height: 50px;
+    background-color: black;
+    /*margin funciona como si fueran las manesillas del relog*/
+    margin: 0 auto;
+
+}
