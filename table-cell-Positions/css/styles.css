@@ -1,0 +1,53 @@
+.container
+{
+    background-color: aqua;
+
+    /*
+    para aplicar esta propieda necesitamos 
+    /*con estas tres propiedades podemos aniliniar de una manera muy facil*/
+    display: table-cell;
+    text-align: left;
+    vertical-align: top;
+
+    width: 300px;
+    height: 300px;
+
+}
+
+.container2
+{
+    
+    background-color: aqua;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+
+    width: 300px;
+    height: 300px;
+
+
+}
+
+
+
+/*positions*/
+.containerP
+{
+    width: 180px;
+    height: 180px;
+
+    background-color: blueviolet;
+    position: relative;
+}
+
+.elementP
+{
+    background-color: brown;
+    /*usamos position absulute para arracanar desde la parte de arriba de nuestro contenedor*/
+    position: absolute;
+
+    left: 0;
+    top:-50;
+
+    transform:translate(80%,-50%) ;
+}
